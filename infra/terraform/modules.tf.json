@@ -7,19 +7,19 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "Parm97"
+        "IMAGES_BUCKET": "parmeshwar"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": null,
-      "function_name": "hello-kitty-function-Parmeshwar",
+      "function_name": "hello-kitty-function-parmeshwar",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
       "memory_size": 128,
       "role": "${module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn}",
       "runtime": "python3.8",
-      "s3_bucket": "stack-gen",
+      "s3_bucket": "stackgen",
       "s3_key": null,
       "s3_object_version": null,
       "source": "./modules/aws_lambda",
